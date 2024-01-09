@@ -4,8 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Faazizpro Auto Search Bar</title>
+    <!-- Daisy UI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.5.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind CSS Script -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                
+              }
+            }
+          }
+        }
+      </script>
 </head>
 <body>
-    
+    <h1 class="text-center text-6xl font-medium mt-10 text-white font-serif">Faazizpro Auto Search Bar</h1>
+
+    <div class="max-w-lg mx-auto mt-10 flex ">
+        <input type="text" placeholder="Type here" class="input input-lg input-success w-full text-4xl rounded-md rounded-r-none outline-none focus:outline-none border-r-0 " />
+        <button class="bg-indigo-600 text-white px-6 text-lg font-semibold py-4 border border-green-500 rounded-r-md border-l-0">Go</button>
+    </div>
+
 </body>
 </html>
